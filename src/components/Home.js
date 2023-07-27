@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {HiArrowNarrowRight} from "react-icons/hi"
 import { Link } from "react-scroll"
-import ParticlesBG from './particles/ParticlesBG';
 
 export default function Home() {
     const [work, setWork] = useState(false);

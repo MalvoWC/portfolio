@@ -23,9 +23,6 @@ export default function Home() {
                         </span>
                     </button>    
                 </div> 
-                <div className='w-full h-[400px] mx-auto py-5 px-8 flex flex-col justify-center z-10'>
-                    <ParticlesBG />
-                </div>
             </div>
         </div>
     );

@@ -4,7 +4,7 @@ import reciepePhoto from "../assests/receipe-app.png"
 import Calculator from "../assests/calculator.png"
 import Ecommerce from "../assests/ecommerce.png"
 import Brochure from "../assests/brochure-app.png"
-import Chess from "../assests/chess-game.png"
+import TTT from "../assests/tic-tac-toe.png"
 
 export default function Work() {
     return (
@@ -90,16 +90,16 @@ export default function Work() {
                             </div>
                         </div>
                     </div>
-                    <div style ={{backgroundImage: `url(${Chess})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style ={{backgroundImage: `url(${TTT})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Coming Soon
+                                Tic-Tac-Toe App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='https://tic-tac-3x1p3b1oa-malvowc.vercel.app/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/MalvoWC/tic-tac-toe/blob/main/README.md?plain=1#L1-L70'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Code</button>
                                 </a>
                             </div>

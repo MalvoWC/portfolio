@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
     return (
-        <div name='about' className='w-full h-[90vh] bg-[#051c3e] text-gray-300'>
+        <div name='about' className='w-full h-full py-8 bg-[#051c3e] text-gray-300'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                     <div className='sm:text-left pb-8 pl-4'>
@@ -10,7 +10,6 @@ export default function About() {
                             About
                         </p>
                     </div>
-                    <div></div>
                 </div>
                 <div className='max-w-[1000px] w-full align grid sm:grid-cols-1 gap-8 px-4'>
                     <div>

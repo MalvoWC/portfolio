@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {HiArrowNarrowRight} from "react-icons/hi"
 import { Link } from "react-scroll"
-import ParticlesBG from './particles/ParticlesBG';
 
 export default function Home() {
     const [work, setWork] = useState(false);
@@ -32,9 +31,6 @@ export default function Home() {
                             </span>
                         </button>    
                     </div> 
-                </div>
-                <div className='pt-10 w-full h-[600px]'>
-                        <ParticlesBG />
                 </div>
             </div>
         </div>

@@ -54,22 +54,22 @@ export default function NavBar() {
                             </Link>
                         </li>
                         <li className='text-lg pr-[10px] flex items-center hover:border-[#051c3e] hover:bg-[#051c3e] hover:text-white transition-all duration-150 ease-in-out rounded-md'>
-                            <Link className="flex justify-center items-center" to="home" smooth={true} duration={500}>
+                            <Link className="flex justify-center items-center" to="about" smooth={true} duration={500}>
                                 <AiOutlineInfoCircle size={20} className="pb-[0.1rem] pr-[0.1rem]"/>About
                             </Link>
                         </li>
                         <li className='text-lg pr-[10px] flex items-center hover:border-[#051c3e] hover:bg-[#051c3e] hover:text-white transition-all duration-150 ease-in-out rounded-md'>
-                        <Link className="flex justify-center items-center" to="home" smooth={true} duration={500}>
+                        <Link className="flex justify-center items-center" to="technologies" smooth={true} duration={500}>
                                 <GrLanguage size={20} className="pb-[0.1rem] pr-[0.1rem]"/> Technologies
                             </Link>
                         </li>
                         <li className='text-lg pr-[10px] flex items-center hover:border-[#051c3e] hover:bg-[#051c3e] hover:text-white transition-all duration-150 ease-in-out rounded-md'>
-                            <Link className="flex justify-center items-center" to="home" smooth={true} duration={500}>
+                            <Link className="flex justify-center items-center" to="work" smooth={true} duration={500}>
                                 <GrPersonalComputer size={20} className="pb-[0.1rem] pr-[0.1rem]"/> Work
                             </Link>
                         </li>
                         <li className='text-lg pr-[10px] flex items-center hover:border-[#051c3e] hover:bg-[#051c3e] hover:text-white transition-all duration-150 ease-in-out rounded-md'>
-                            <Link className="flex justify-center items-center" to="home" smooth={true} duration={500}>
+                            <Link className="flex justify-center items-center" to="contact" smooth={true} duration={500}>
                                 <AiOutlineMail size={20} className="pb-[0.1rem] pr-[0.1rem]"/> Contact
                             </Link>
                         </li>

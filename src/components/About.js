@@ -11,7 +11,7 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-                <div className='max-w-[1000px] w-full align grid sm:grid-cols-1 gap-8 px-4'>
+                <div className='max-w-[1000px] w-full align grid sm:grid-cols-1 gap-8 px-4 text-lg'>
                     <div>
                         <p> Currently working on a diverse portfolio of projects, which range from simple apps like the Calculator to a fully responsive e-commerce website.
                             Proficient in both front-end and back-end programming using a multitude of technologies including React.js with hooks and state management, Tailwind.css for styling, Express.js, and PostgreSQL. 

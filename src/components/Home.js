@@ -11,13 +11,13 @@ export default function Home() {
         <div name='home' className='w-full h-full pt-[10rem] bg-[#051c3e]'>
             <div className='max-w-[1000px] flex flex-col justify-center items-center'>
                 <div className='ml-[10rem]'>
-                    <p className='text-yellow-600'>
+                    <p className='text-yellow-600 text-xl'>
                         Welcome, my name is
                     </p>
                     <h1 className='text-4xl sm:text-7xl font-bold text-white'>
                         Cameron Malvo
                     </h1>
-                    <p className='text-[#8892b0] py-4 max-w-[700px]'>
+                    <p className='text-[#8892b0] text-lg py-4 max-w-[700px]'>
                         Full-Stack Software Engineer proficient in React, Node.js & SQL. Adept in developing and deploying web applications.
                     </p>
                     <div >

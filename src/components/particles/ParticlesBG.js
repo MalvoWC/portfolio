@@ -8,7 +8,7 @@ export default function ParticlesBG() {
     }
 
     return (
-        <div className='w-full py-5'>
+        <div>
             <Particles
                  id="tsparticles"
                 init={loadParticles}
@@ -20,6 +20,7 @@ export default function ParticlesBG() {
                     style: {
                         position: "absolute",
                         height: "500px",
+                        width: "screen",
                     },
                     background: {
                         color: {

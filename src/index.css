@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
-@layer base {
+@layer utilities {
     body {
         @apply font-[BraahOne]
     }
@@ -13,6 +13,20 @@
         @apply px-4;
         @apply cursor-pointer;
     }
+
+}
+.nav-underline {
+    @apply px-4;
+    @apply cursor-pointer;
+}
+
+.nav-underline::after {
+    @apply content-[``] bg-yellow-600 h-[3px] w-[0%] left-0 -bottom-[5px]
+    rounded-xl absolute duration-300
+}
+
+.nav-underline:hover::after {
+    @apply w-[100%]
 }
 
 
@@ -26,6 +40,6 @@
 .content-div:hover {
     background-image: 
     linear-gradient(to right, 
-    rgba(247, 244, 70, 0.8), 
-    hsla(241, 33%, 72%, 0.8))!important;
+    rgba(177, 177, 168, 0.8), 
+    hsla(0, 0%, 100%, 0.8))!important;
 }

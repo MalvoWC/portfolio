@@ -15,7 +15,7 @@ export default function ParticlesBG() {
                 options={{
                     fullScreen: {
                         enable: false,
-                        zIndex: 1,
+                        zIndex: -1,
                     },
                     style: {
                         position: "absolute",
@@ -68,7 +68,7 @@ export default function ParticlesBG() {
                                 default: "bounce",
                             },
                             random: false,
-                            speed: 6,
+                            speed: 4,
                             straight: false,
                         },
                         number: {
@@ -82,7 +82,7 @@ export default function ParticlesBG() {
                             value: 0.5,
                         },
                         shape: {
-                            type: "circle",
+                            type: "triangle",
                         },
                         size: {
                             value: { min: 1, max: 5 },

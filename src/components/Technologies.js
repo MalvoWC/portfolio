@@ -8,13 +8,13 @@ import Bootstrap from '../assests/bootstrap-5-1.svg'
 
 export default function Technologies() {
     return (
-        <div name='technologies' className='bg-[#051c3e] text-gray-300 w-full h-screen'>
+        <div name='technologies' className='bg-[#051c3e] text-gray-300 w-full h-screen py-[8rem]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-yellow-600'>Technologies</p>
-                    <p className='py-3 text-lg'>Coding languages that I've learned</p>
+                    <p className='py-3 text-xl'>Coding languages</p>
                 </div>
-                <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 z-0'>
+                <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 z-30'>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto pt-6' src={CSS} alt='HTML icon' />
                         <p className='my-3'>CSS</p>
